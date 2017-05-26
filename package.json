@@ -1,0 +1,29 @@
+{
+  "name": "dbugbots",
+  "version": "0.0.1",
+  "description": "bots for debugging",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/dbugbots",
+  "main": "dbugbots.js",
+  "bin": {
+    "dbugbots": "./dbugbots.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/dbugbots.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/dbugbots/issues"
+  },
+  "standard": {
+    "ignore": [
+      "tmp/"
+    ]
+  },
+  "dependencies": {
+    "chalk": "~1.1.3",
+    "chrome-remote-interface": "~0.22.0",
+    "minimist": "~1.2.0"
+  }
+}
